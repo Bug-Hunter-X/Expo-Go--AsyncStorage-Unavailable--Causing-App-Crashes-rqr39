@@ -1,0 +1,1 @@
+This bug occurs when using the Expo Go app to test an app that uses AsyncStorage. The problem is that AsyncStorage is not available in the Expo Go environment, which is why the app crashes.  This leads to unexpected behavior and errors during development and testing.
